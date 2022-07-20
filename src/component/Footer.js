@@ -65,13 +65,14 @@ export default function Footer() {
     <div className='col-lg-4'>
     <div className='foot-lnks'>
     <h4>Services</h4>
-    <ul>
-    <li><a href="services#metal-punching">Metal Punching</a></li> 
+    <ul> 
     <li><a href="services#laser-cutting">Laser Cutting</a></li> 
-    <li><a href="services#metal-forming">Metal Forming</a></li> 
-    <li><a href="services#welding">Welding</a></li> 
-    <li><a href="services#powder-coating">Powder Coating</a></li> 
-    <li><a href="services#machining">Machining</a></li>    
+    <li><a href="services#welding">Laser Welding</a></li> 
+    <li><a href="services#machining">Spot Welding</a></li>
+    <li><a href="services#bending">Bending</a></li>
+    <li><a href="services#shearing">Shearing</a></li>
+    <li><a href="services#metal-punching">Turret Punching</a></li>
+    <li><a href="services#powder-coating">Powder Coating</a></li>     
     </ul>
     </div>     
     </div>

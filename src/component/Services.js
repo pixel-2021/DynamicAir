@@ -115,7 +115,7 @@ export default function Products() {
     </Row>
     </div> 
 
-    <div className='servces' id="welding">
+    <div className='servces' id="bending">
     <Row>
 
     <div className='col-lg-7 align-self-center'>
@@ -136,7 +136,7 @@ export default function Products() {
 
       
 
-    <div className='servces' id="machining"> 
+    <div className='servces' id="shearing"> 
     <Row>
 
     <div className='col-lg-5 right-prt'>

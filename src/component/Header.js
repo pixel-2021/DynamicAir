@@ -43,17 +43,19 @@ export default function Header() {
               <NavDropdown.Item href="#">Service - 4</NavDropdown.Item> 
             </NavDropdown> */}
             
-            { <NavDropdown title="about-us" id="basic-nav-dropdown" renderMenuOnMount={true}>
+            { <NavDropdown title="about-us" id="about-nav-dropdown" renderMenuOnMount={true}>
                 <NavDropdown.Item href="about-us#overview">Overview</NavDropdown.Item> 
                 <NavDropdown.Item href="about-us#vision">Vision &amp; Mission</NavDropdown.Item> 
                 <NavDropdown.Item href="about-us#certifications">Certifications</NavDropdown.Item>
               </NavDropdown> }
-              { <NavDropdown title="services" id="basic-nav-dropdown" renderMenuOnMount={true}>
+              { <NavDropdown title="services" id="services-nav-dropdown" renderMenuOnMount={true}> 
                 <NavDropdown.Item href="services#laser-cutting">Laser Cutting</NavDropdown.Item> 
-                <NavDropdown.Item href="services#metal-forming">Metal Forming</NavDropdown.Item> 
-                <NavDropdown.Item href="services#welding">Welding</NavDropdown.Item>
-                <NavDropdown.Item href="services#powder-coating">Powder Coating</NavDropdown.Item>
-                <NavDropdown.Item href="services#machining">Machining</NavDropdown.Item>
+                <NavDropdown.Item href="services#welding">Laser Welding</NavDropdown.Item>
+                <NavDropdown.Item href="services#machining">Spot Welding</NavDropdown.Item>
+                <NavDropdown.Item href="services#bending">Bending</NavDropdown.Item>
+                <NavDropdown.Item href="services#shearing">Shearing</NavDropdown.Item>
+                <NavDropdown.Item href="services#metal-punching">Turret Punching</NavDropdown.Item>                 
+                <NavDropdown.Item href="services#powder-coating">Powder Coating</NavDropdown.Item>                
               </NavDropdown> }
             <Nav><Link to='products'>Products</Link></Nav> 
             <Nav><Link to='technologies'>Technologies</Link></Nav>
