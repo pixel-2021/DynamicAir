@@ -48,7 +48,13 @@ export default function Header() {
                 <NavDropdown.Item href="about-us#vision">Vision &amp; Mission</NavDropdown.Item> 
                 <NavDropdown.Item href="about-us#certifications">Certifications</NavDropdown.Item>
               </NavDropdown> }
-            <Nav><Link to='services'>Services</Link></Nav>
+              { <NavDropdown title="services" id="basic-nav-dropdown" renderMenuOnMount={true}>
+                <NavDropdown.Item href="services#laser-cutting">Laser Cutting</NavDropdown.Item> 
+                <NavDropdown.Item href="services#metal-forming">Metal Forming</NavDropdown.Item> 
+                <NavDropdown.Item href="services#welding">Welding</NavDropdown.Item>
+                <NavDropdown.Item href="services#powder-coating">Powder Coating</NavDropdown.Item>
+                <NavDropdown.Item href="services#machining">Machining</NavDropdown.Item>
+              </NavDropdown> }
             <Nav><Link to='products'>Products</Link></Nav> 
             <Nav><Link to='technologies'>Technologies</Link></Nav>
             <Nav><Link to='clients'>Clients</Link></Nav> 
