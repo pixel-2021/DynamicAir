@@ -38,7 +38,7 @@ export default function CompanyProfile() {
     </Col>
     </section>
 
-<section className="section about-section">
+<section className="section about-section" id="overview">
 <Container>
 <Row className='align-items-center'>
 <div className='col-lg-6' data-aos="fade-right" data-aos-duration="1000">
@@ -73,7 +73,7 @@ The unit is equipped with world-class machineries and equipments. The facility i
 </div>
 
 <div className='col-lg-12'>
-<div className='vison-mison row'>
+<div className='vison-mison row' id="vision">
 
 <div className='col-lg-6'> 
 <div className='vison' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
@@ -103,7 +103,7 @@ The unit is equipped with world-class machineries and equipments. The facility i
 </Container>
 </section>
 
-<section className='our-cetrefication text-center'>
+<section id="certifications" className='our-cetrefication text-center'>
 <Container>
 <Row className='align-items-center'>
 

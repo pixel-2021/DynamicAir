@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'; 
 import {Link} from "react-router-dom";
-import banner_image from '../images/inner-banner-5.jpg';  
+import banner_image from '../images/inner-banner-8.jpg';  
 import tech_mage_1 from '../images/tech-1.jpg';  
 import tech_mage_2 from '../images/tech-2.jpg'; 
 import tech_mage_3 from '../images/tech-3.jpg'; 

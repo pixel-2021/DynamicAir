@@ -65,9 +65,9 @@ export default function Products() {
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
     <h4>Laser Cutting</h4> 
-    <p><span>Dynamic Air utilizes fiber laser technology, which cuts faster and more accurately than traditional lasers. </span><br></br>
+    <p><span>Dynamic Air utilizes fiber laser technology, which cuts faster and more accurately than traditional lasers.</span><br></br>
     
-    A fully automated laser cutting department with loading and unloading capabilities and a highly experienced Engineering team uses nesting to increase sheet utilization, which results in less waste and lower costs.</p>
+    A fully automated laser cutting department with loading and unloading capabilities and a highly experienced Engineering team uses nesting to increase sheet utilization, which results in less waste and lower costs. The optimum quality CO2 lasers are reliable and robust in creating smooth edges and parts that are free of burrs.</p>
     </div>
     </div>
     </Row>
@@ -79,8 +79,8 @@ export default function Products() {
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
     <h4>Laser Welding</h4> 
-    <p><span>Dynamic Air utilizes fiber laser technology, which cuts faster and more accurately than traditional lasers. </span><br></br>
-    We are versatile in the use of materials and offer flexible and economical choices in Stud Welding, best suited for materials with low thermal conductivity and Spot Welding, that works by creating an electric arc between a fastener (stud) and the parent material.</p>
+    <p><span>Dynamic Air utilizes fiber laser technology, which cuts faster and more accurately than traditional lasers.</span><br></br>
+    We are versatile in the use of materials and offer flexible and economical choices in Stud Welding, best suited for materials with low thermal conductivity and Spot Welding, that works by creating an electric arc between a fastener (stud) and the parent material. The robotic welding equipment helps in delivering game-changing results to customers of all sizes.</p>
     </div>
     </div>
 
@@ -107,8 +107,8 @@ export default function Products() {
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
     <h4>Spot Welding</h4> 
-    <p><span>At Dynamic Air, our experienced machining department has the capabilities to produce high-complexity parts and assemblies.  </span><br></br>
-    Our team specialises in precision-tolerance CNC machining and turning of small to medium-size parts. Our offerings include bearings, housings, pins, bushings, blocks, custom nuts, bolts, screws, and other special products.</p>
+    <p><span>At Dynamic Air, our experienced machining department has the capabilities to produce high-complexity parts and assemblies.</span><br></br>
+    Our team specialises in precision-tolerance CNC machining and turning of small to medium-size parts. Our offerings include bearings, housings, pins, bushings, blocks, custom nuts, bolts, screws, and other special products. Spot Welding is done with automated robot-controlled arms with high-quality welds and a short cycle time. </p>
     </div>
     </div>
 
@@ -121,7 +121,7 @@ export default function Products() {
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
     <h4>Bending</h4> 
-    <p><span> </span><br></br> </p>
+    <p><span>Dynamic Air uses the most accurate and precise machine for bending that enables huge production. </span><br></br>Accurate and precise stroke depth adjustment guarantees in exact parallelism along with the length of the machine between the lower table and upper press beam. </p>
     </div>
     </div>
 
@@ -148,7 +148,7 @@ export default function Products() {
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
     <h4>Shearing</h4> 
-    <p><span> </span><br></br></p>
+    <p><span>Dynamic Air utilizes machinery with accurate and adjustable stroke length for shearing purposes. </span><br></br>Very accurate NC backgauge system with the accuracy of ±0.1 mm. Rapid blade gap adjustment with adjustable stroke length for burr-free and distortion-free shear results. </p>
     </div>
     </div>
 
@@ -161,9 +161,7 @@ export default function Products() {
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
     <h4>Turret Punching</h4> 
-    <p><span>At Dynamic Air, we have the capability to meticulously produce quality parts with high speed precision, thereby lowering costs and lead times.</span><br></br>
-
-    We produce a variety of holes, countersinks, embossments, louvers, and other formed features such as automated turrets which can process complex parts. Only such parts with quality assurance and lights-out automation capabilities are delivered at Dynamic Air.</p>
+    <p><span>At Dynamic Air, we have the capability to meticulously produce quality parts with high-speed precision, thereby lowering costs and lead times.</span><br></br>We produce a variety of holes, countersinks, embossments, louvers, and other formed features such as automated turrets which can process complex parts. Only such parts with quality assurance and lights-out automation capabilities are delivered at Dynamic Air. With high-speed deburring, slotting, and marking, the punching accuracy is improved from ±0.1mm to ±0.07mm.</p>
     </div>
     </div>
 
@@ -188,8 +186,7 @@ export default function Products() {
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
     <h4>Powder Coating</h4> 
-    <p><span>Dynamic Air uses the most eco-friendly method of painting that requires no solvents and generates little or no wastes.</span><br></br>
-    Through our Powder coating, which is a fully conveyor operated procedure, we utilize a six-stage pre-treatment system with separate dry-off and curing ovens for best quality, thus creating the widest range of finishes and textures that are more durable than ordinary paints.</p>
+    <p><span>Dynamic Air uses the most eco-friendly methods for coating with powder that requires no solvents and generates little or no waste.</span><br></br>Through our Powder coating, which is a full conveyor operating procedure, we utilize a six-stage pre-treatment system with separate dry-off and curing ovens for best quality, thus creating the widest range of finishes and textures that are more durable than ordinary powder coats.</p>
     </div>
     </div>
 

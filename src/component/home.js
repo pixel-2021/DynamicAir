@@ -96,7 +96,7 @@ function home () {
     <div className='main-box text-start' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
     <img src={choose_us_1}/>
     <h4>Enhanced Capability</h4>
-    <p>Reinforced by full-fledged German technology machines</p>
+    <p>Reinforced by german technlology</p>
     </div>    
     </div>  
 

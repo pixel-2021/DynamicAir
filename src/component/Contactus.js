@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from 'react-bootstrap'; 
 import {Link} from "react-router-dom";
-import banner_image from '../images/inner-banner-2.jpg';
+import banner_image from '../images/inner-banner-1.jpg';
 import Addressmap from './Addressmap';
 import { FaRegBuilding } from "react-icons/fa";
 import { RiBuilding4Line } from "react-icons/ri";

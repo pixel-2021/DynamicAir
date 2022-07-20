@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import banner_image from "../images/inner-banner-1.jpg";
+import banner_image from "../images/inner-banner-6.jpg";
 import { FormInput } from "./FormInput";
 
 export default function CompanyProfile() {

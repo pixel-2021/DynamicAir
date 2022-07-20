@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'; 
 import {Link} from "react-router-dom";
-import banner_image from '../images/inner-banner-3.jpg'; 
+import banner_image from '../images/inner-banner-7.jpg'; 
 import client_image_1 from '../images/client-1.png'; 
 import client_image_2 from '../images/client-2.png'; 
 import client_image_3 from '../images/client-3.png'; 

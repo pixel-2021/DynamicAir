@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'; 
-import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 import ScrollToTop from './ScrollToTop';
 import {Link} from "react-router-dom";
 
@@ -37,6 +37,7 @@ export default function Footer() {
     <li><a href=""><FaFacebookF /></a></li>    
     <li><a href=""><FaTwitter /></a></li>    
     <li><a href=""><FaYoutube /></a></li> 
+	<li><a href=""><FaLinkedinIn /></a></li> 
     </ul>    
     </div>         
     </div>

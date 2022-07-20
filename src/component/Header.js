@@ -42,7 +42,12 @@ export default function Header() {
               <NavDropdown.Item href="#">Service - 3</NavDropdown.Item> 
               <NavDropdown.Item href="#">Service - 4</NavDropdown.Item> 
             </NavDropdown> */}
-            <Nav><Link to='about-us'>About Us</Link></Nav>
+            
+			{ <NavDropdown title="about-us" id="basic-nav-dropdown" renderMenuOnMount={true}>
+              <NavDropdown.Item href="#overview">Overview</NavDropdown.Item> 
+              <NavDropdown.Item href="#vision">Vision &amp; Mission</NavDropdown.Item> 
+              <NavDropdown.Item href="#certifications">Certifications</NavDropdown.Item>
+            </NavDropdown> }
             <Nav><Link to='services'>Services</Link></Nav>
             <Nav><Link to='products'>Products</Link></Nav> 
             <Nav><Link to='technologies'>Technologies</Link></Nav>
