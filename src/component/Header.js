@@ -43,11 +43,11 @@ export default function Header() {
               <NavDropdown.Item href="#">Service - 4</NavDropdown.Item> 
             </NavDropdown> */}
             
-			{ <NavDropdown title="about-us" id="basic-nav-dropdown" renderMenuOnMount={true}>
-              <NavDropdown.Item href="#overview">Overview</NavDropdown.Item> 
-              <NavDropdown.Item href="#vision">Vision &amp; Mission</NavDropdown.Item> 
-              <NavDropdown.Item href="#certifications">Certifications</NavDropdown.Item>
-            </NavDropdown> }
+            { <NavDropdown title="about-us" id="basic-nav-dropdown" renderMenuOnMount={true}>
+                <NavDropdown.Item href="about-us#overview">Overview</NavDropdown.Item> 
+                <NavDropdown.Item href="about-us#vision">Vision &amp; Mission</NavDropdown.Item> 
+                <NavDropdown.Item href="about-us#certifications">Certifications</NavDropdown.Item>
+              </NavDropdown> }
             <Nav><Link to='services'>Services</Link></Nav>
             <Nav><Link to='products'>Products</Link></Nav> 
             <Nav><Link to='technologies'>Technologies</Link></Nav>
