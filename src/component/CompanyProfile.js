@@ -53,7 +53,7 @@ export default function CompanyProfile() {
 <h4>Established in 2008 and headquartered in Chennai, India, Dynamic Air Engineering India Private Limited</h4>
 </div>
 <div className='common-para'>
-<p>is an ISO 9001: 2015 certified company that specializes in the fabrication of all kinds of sheet metal solutions under one roof. It has established in 2008 and is headquartered in Chennai, India.<br></br>
+<p className='mb-0'>is an ISO 9001: 2015 certified company that specializes in the fabrication of all kinds of sheet metal solutions under one roof. It has established in 2008 and is headquartered in Chennai, India.<br></br>
 <br></br>
 Dynamic Air is one of the leading rail coach manufacturers that entered the railway segment in the year 2008. The company handles all kinds of fabrications made for Indian Railways, and currently manufactures entire train coaches for Integral Coach Factory, Chennai. Dynamic Air provides you with complete solutions, from Design, Fabrication and Installation services to International Standards.<br></br>
 <br></br>
@@ -71,9 +71,11 @@ The unit is equipped with world-class machineries and equipments. The facility i
 </div>
 
 </div>
-
+<div className='col-lg-12' id="vision">
+<div className='spacer-100'>&nbsp;</div>
+</div>
 <div className='col-lg-12'>
-<div className='vison-mison row' id="vision">
+<div className='vison-mison row'>
 
 <div className='col-lg-6'> 
 <div className='vison' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">

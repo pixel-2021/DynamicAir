@@ -202,6 +202,10 @@ ul.home-links li a svg{
 	border-bottom: 15px solid transparent;
 }
 
+.spacer-100{
+  height: 100px;
+}
+
 @keyframes pulse-border {
   0% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);

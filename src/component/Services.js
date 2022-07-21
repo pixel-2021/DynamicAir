@@ -155,7 +155,7 @@ export default function Products() {
     </Row>
     </div>
 
-    <div className='servces no-bricks' id="metal-punching">
+    <div className='servces' id="metal-punching">
     <Row>
 
     <div className='col-lg-7 align-self-center'>
@@ -239,12 +239,13 @@ export default function Products() {
     <div className="col-sm-12 col-md-6 col-lg-6">
     <select class="form-control jsrequired" id="state" name="state">
 	    <option value="">Select your Service</option>
-	    <option value="Metal Punching">Metal Punching</option> 
 	    <option value="Laser Cutting">Laser Cutting</option> 
 	    <option value="Laser Welding">Laser Welding</option> 
-	    <option value="Powder Coating">Powder Coating</option> 
-	    <option value="Metal Forming">Metal Forming</option> 
-	    <option value="Machining">Machining</option> 
+	    <option value="Spot Welding">Spot Welding</option> 
+	    <option value="Bending">Bending</option> 
+	    <option value="Shearing">Shearing</option> 
+	    <option value="Turret Punching">Turret Punching</option>
+	    <option value="Powder Coating">Powder Coating</option>  
 	  </select>
     </div>
     <div className="col-sm-12 col-md-12 col-lg-12">
