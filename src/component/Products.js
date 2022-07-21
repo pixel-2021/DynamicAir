@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'; 
+import ReactFancyBox from 'react-fancybox';
 import {Link} from "react-router-dom";
+import 'react-fancybox/lib/fancybox.css';
 import banner_image from '../images/inner-banner-4.jpg';  
 import product_img_1 from '../images/pro-1.jpg';  
 import product_img_1_1 from '../images/pro-1-1.jpg';  
@@ -56,22 +58,16 @@ industrial and engineering processes across industries.</h4></div>
     <div className='products-lstings'>
     <ul>
     <li>
-    <a href="">
-    <img src={side}/>
-    <span> Side Wall </span>
-    </a>
+      <ReactFancyBox thumbnail={side} image={side}/>
+      <span> Side Wall </span>
     </li>
     <li>
-    <a href="">
-    <img src={roof}/>
-    <span> Roof </span>
-    </a>
+      <ReactFancyBox thumbnail={roof} image={roof}/>
+      <span> Roof </span>
     </li>
     <li>
-    <a href="">
-    <img src={underframe}/>
+    <ReactFancyBox thumbnail={underframe} image={underframe}/>
     <span> Underframe </span>
-    </a>
     </li>
     <li>
     <a href="">
@@ -80,16 +76,12 @@ industrial and engineering processes across industries.</h4></div>
     </a>
     </li>
     <li>
-    <a href="">
-    <img src={nosecone}/>
+    <ReactFancyBox thumbnail={nosecone} image={nosecone}/>
     <span> Nose Cone </span>
-    </a>
     </li>
     <li>
-    <a href="">
-    <img src={doors}/>
-    <span> Railway Doors & Windows </span>
-    </a>
+    <ReactFancyBox thumbnail={doors} image={doors}/>
+    <span> Railway Doors &amp; Windows </span>
     </li>
     </ul>
     </div>
@@ -99,10 +91,8 @@ industrial and engineering processes across industries.</h4></div>
     <h5>HVAC - Air Distribution Products</h5>
     <p>From grills to diffusers, dampers and doors, Dynamic Air engineers a durable <br></br> and qualitatively superior gamut of engineering products </p>
     <li>
-    <a href="">
-    <img src={hvac}/>
+    <ReactFancyBox thumbnail={hvac} image={hvac}/>
     <span> HVAC Air Distribution Products </span>
-    </a>
     </li>
     </ul>
     

@@ -601,8 +601,9 @@ section.copywrite{padding:10px 0px;}
 
     .form-sector{background:rgba(0, 0, 0, 0) url("./images/bg-6.jpg") no-repeat scroll 0 0; 
       background-size: cover;}
-
-    
+      .react-fancybox .thumbnail{cursor: pointer;}
+      .react-fancybox .box{ z-index: 99999999 !important;}
+      .react-fancybox .close-btn{width: 40px !important; height: 40px !important; padding: 5px; cursor: pointer;}
 
   .form-sector .form-control{margin-bottom: 15px;height: 50px;border:1px solid #cbcbcb !important;background-color: #fdfdfd;
     border-radius: 2px;}
